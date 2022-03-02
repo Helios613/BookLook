@@ -35,7 +35,9 @@ li {
 }
 
 .nav-bar {
-    margin-left: 120ch;
+    /* margin-left: 120ch; */
+    position: absolute;
+    right: 40px;
 }
 
 li a {
@@ -1394,4 +1396,10 @@ form {
 
 .button:hover {
     background-color: #00bfa6;
+}
+.heading-home{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    margin-left:0px;
 }

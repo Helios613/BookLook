@@ -42,7 +42,9 @@ li {
 }
 
 .nav-bar {
-    margin-left: 120ch;
+    /* margin-left: 120ch; */
+    position: absolute;
+    right: 40px;
 }
 
 li a {
@@ -738,7 +740,7 @@ section {
 
 .hero-section,
 .hero-section>.container>.row {
-    height: 8vh;
+    height: 3.5rem;
     min-height: 40px;
 }
 
@@ -1362,6 +1364,7 @@ form {
     grid-template-columns: 15% 85%;
     padding: 0 0.4rem;
     position: relative;
+    border: solid grey 1px;
 }
 
 .input-field i {
@@ -1401,4 +1404,10 @@ form {
 
 .button:hover {
     background-color: #00bfa6;
+}
+.heading-home{
+    position: absolute;
+    left: 100px;
+    top: 67.5px;
+    margin-left:0px;
 }
